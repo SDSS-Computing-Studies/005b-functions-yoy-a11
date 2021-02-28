@@ -7,10 +7,8 @@ If the boolean is False, then the larger number is the hypotenuse
 Return the missing side
 (2 points)
 """
-import math
-print("Input lengths of shorter triangle sides:")
-a = float(input("a: "))
-b = float(input("b: "))
-
-c = sqrt(a**2 + b**2)
-print("The length of the hypotenuse is", c )
+def hypotenuse(a1, a2, flag):
+    if flag:
+        return (a1**2 + a2**2)**0.5
+    else:
+        return (max(a1, a2)**2 - min(a1,a2)**2)**0.5
