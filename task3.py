@@ -6,6 +6,11 @@ The return value is the sum of all the numbers in the list
 added together
 (2 points)
 """
-perimeter( [5,2,6]) == 13
-tatal = sum(perimeter)
-print("sum of all elements in the list")
+def perimeter(lst):
+    sum = 0
+    for i in lst:
+        sum += i
+    return sum
+#perimeter( [5,2,6]) == 13
+#tatal = sum(perimeter)
+#print("sum of all elements in the list")
