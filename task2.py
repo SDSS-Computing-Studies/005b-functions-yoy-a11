@@ -12,4 +12,3 @@ def largest( lst ):
         if a > max:
             max = a
     return max
-#print largest([1, 2, -8, 0]))
