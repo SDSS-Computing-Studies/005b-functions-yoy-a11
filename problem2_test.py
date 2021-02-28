@@ -10,5 +10,3 @@ def test1():
 
 def test2():
   assert round(problem2.distance( (-3,2.2) , (1,2)) , 3) == 4.005
-
-

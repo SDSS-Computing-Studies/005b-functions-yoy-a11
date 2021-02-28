@@ -8,7 +8,6 @@ Note that the coordinates should be signed (positive or negative) floats
 (2 points)
 """
 
-#Distance = sqry((x1 - x2)**2 + (y1-y2)**2)
-import math
-def distance(x1,y1,x2,y2):
-    dist = (|(x1-x2)**2 + (y1-y2)**2)
+
+def distance(c1, c2):
+    return ((c1[0]-c2[0])**2 + (c1[1]-c2[1])**2)**0.5
