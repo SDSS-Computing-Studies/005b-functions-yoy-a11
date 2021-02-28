@@ -9,6 +9,6 @@ The return value is the largest value in the list
 def largest( lst ):
     max = lst[ 0 ]
     for a in lst:
-        if a < max:
+        if a > max:
             max = a
     return max

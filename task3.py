@@ -10,7 +10,7 @@ def perimeter(lst):
     sum = 0
     for i in lst:
         sum += i
-    return 0
+    return sum
 #perimeter( [5,2,6]) == 13
 #tatal = sum(perimeter)
 #print("sum of all elements in the list")
